@@ -1,0 +1,86 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-color {
+    color: #e65f78;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.w-85 {
+    width: 85% !important;
+}
+
+nav {
+    z-index: 1030;
+}
+
+#home {
+    background-image: url(../images/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #e65f78 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e65f78 !important;
+}
+
+.home-layer {
+    background-color: rgba(0, 0, 0, 0.697);
+}
+
+#home h1 {
+    font-size: 50px;
+}
+
+#home p {
+    font-size: 16px;
+}
+
+#home .settings {
+    top: 18%;
+    left: 0;
+    background-color: #2b2424;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#home .up-icon {
+    width: 28px;
+    height: 44px;
+    bottom: 5%;
+}
+
+#home .up-icon::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    background-color: white;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#home .mouse-icon {
+    right: 40px;
+    bottom: 20px;
+    background-color: #e65f78;
+    padding: 5px 7px;
+}
